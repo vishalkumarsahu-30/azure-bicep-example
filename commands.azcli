@@ -1,0 +1,4 @@
+#Deploy an ARM template
+az deployment group create \
+--resource-group new-resource-group-vs \
+--template-file main.json
